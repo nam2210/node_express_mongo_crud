@@ -8,7 +8,7 @@ const employeeController = require('./controllers/employeeController')
 var app = express()
 
 app.listen(3000, () => {
-    console.log('express server is started at 3000')
+    console.log('express server is started at 3000, Hello')
 })
 
 app.use('/employee', employeeController)
